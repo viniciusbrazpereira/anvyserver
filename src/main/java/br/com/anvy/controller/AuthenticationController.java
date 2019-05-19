@@ -12,7 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.anvy.entity.User;
 import br.com.anvy.security.TokenGenerate;
+import io.swagger.annotations.Api;
 
+@Api(value="Employee Management System")
 @CrossOrigin(origins = {"http://localhost:4200"})
 @RequestMapping("/api")
 @RestController
